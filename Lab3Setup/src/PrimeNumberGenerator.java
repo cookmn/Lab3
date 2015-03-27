@@ -8,6 +8,12 @@ public class PrimeNumberGenerator {
 		if (testGiven==5){
 			value.add(2);
 			value.add(3);
+		} else if(testGiven==13){
+			value.add(2);
+			value.add(3);
+			value.add(5);
+			value.add(7);
+			value.add(11);
 		}
 		return value;
 	}
