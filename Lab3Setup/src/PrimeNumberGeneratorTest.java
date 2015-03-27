@@ -19,10 +19,12 @@ public class PrimeNumberGeneratorTest {
 		Integer[] first = {};
 		Integer[] second = {};
 		Integer[] third = {2, 3};
+		Integer[] fourth = {2, 3, 5, 7, 11};
 		return Arrays.asList(new Object [] [] {
 				{1, new ArrayList<Integer>(Arrays.asList(first))},
 				{2, new ArrayList<Integer>(Arrays.asList(second))},
-				{5, new ArrayList<Integer>(Arrays.asList(third))}
+				{5, new ArrayList<Integer>(Arrays.asList(third))},
+				{13, new ArrayList<Integer>(Arrays.asList(fourth))}
 		});
 		
 		
