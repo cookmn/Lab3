@@ -11,33 +11,33 @@ public class Lab3Test {
 	
 	@Test
 	public void testFor1() {
-		assertEquals(Prime.primefactorization(1), value); 
+		assertEquals(value, Prime.primefactorization(1)); 
 	}
 	
 	@Test
 	public void testFor2() {
 		value.add(2);
-		assertEquals(Prime.primefactorization(2), value);
+		assertEquals(value, Prime.primefactorization(2));
 	}
 	
 	@Test
 	public void testFor3() {
 		value.add(3);
-		assertEquals(Prime.primefactorization(3), value);
+		assertEquals(value, Prime.primefactorization(3));
 	}
 	
 	@Test
 	public void testFor4() {
 		value.add(2);
 		value.add(2);
-		assertEquals(Prime.primefactorization(4), value);
+		assertEquals(value, Prime.primefactorization(4));
 	}
 	
 	@Test
 	public void testFor6() {
 		value.add(2);
 		value.add(3);
-		assertEquals(Prime.primefactorization(6), value);
+		assertEquals(value, Prime.primefactorization(6));
 	}
 	
 	@Test
@@ -45,14 +45,14 @@ public class Lab3Test {
 		value.add(2);
 		value.add(2);
 		value.add(2);
-		assertEquals(Prime.primefactorization(8), value);
+		assertEquals(value, Prime.primefactorization(8));
 	}
 	
 	@Test
 	public void testFor9() {
 		value.add(3);
 		value.add(3);
-		assertEquals(Prime.primefactorization(9), value);
+		assertEquals(value, Prime.primefactorization(9));
 	}
 
 }
