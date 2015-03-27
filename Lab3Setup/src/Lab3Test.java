@@ -32,5 +32,12 @@ public class Lab3Test {
 		value.add(2);
 		assertEquals(Prime.primefactorization(4), value);
 	}
+	
+	@Test
+	public void testFor6() {
+		value.add(2);
+		value.add(3);
+		assertEquals(Prime.primefactorization(6), value);
+	}
 
 }
