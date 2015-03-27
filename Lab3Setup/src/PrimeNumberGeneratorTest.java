@@ -17,8 +17,10 @@ public class PrimeNumberGeneratorTest {
 	@Parameterized.Parameters
 	public static Collection<Object[]> primeNumbers() {
 		Integer[] first = {};
+		Integer[] second = {2};
 		return Arrays.asList(new Object [] [] {
-				{1, new ArrayList<Integer>(Arrays.asList(first))}
+				{1, new ArrayList<Integer>(Arrays.asList(first))},
+				{2, new ArrayList<Integer>(Arrays.asList(second))}
 		});
 		
 		
