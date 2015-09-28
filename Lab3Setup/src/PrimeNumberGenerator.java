@@ -14,7 +14,11 @@ public class PrimeNumberGenerator {
 	public static ArrayList<Integer> generator(int testGiven) {
 		ArrayList<Integer> value = new ArrayList<Integer>();
 
+<<<<<<< HEAD
+		for (int i = 1; i < testGiven; i++) {
+=======
 		for (int i = 3; i < testGiven; i++) {
+>>>>>>> broken
 			if (isPrime(i)) {
 				value.add(i);
 			}
